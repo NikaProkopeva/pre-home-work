@@ -1,0 +1,80 @@
+/* цвет  основного текста color #212121 */
+
+/* вторичный цвет текста 757575 */
+
+/* background section: #2F303A; */
+/* primary background: #E5E5E5;*/
+/* accent: #2196F3 */
+/* secondary color button #FFFFFF */
+/* footer links color: rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+}
+body {
+  background-color: color: #FFFFFF;
+;
+  color: var(----primary-text-color);
+}
+.logo {
+    color: #2196F3;
+}
+ul {
+    list-style: none;
+}
+.site-nav .link {
+  color: #212121; 
+   
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+color: var(--accent-color);
+}
+.main-section {
+background-color: #2F303A;
+}
+.main-title {
+color: #ffffff;
+}
+.setion-title {
+color: var(--title-text-color);
+}
+
+.title {
+ color: var(--title-text-color);   
+}
+.pictures {
+
+}
+.foto {
+
+}
+.title-person {
+color: var(--title-text-color);
+}
+.footer {
+ background-color: #2F303A;   
+}
+.footer .item {
+color: #ffffff;
+}
+.footer a {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer .logo {
+ color: #2196F3   
+}
+/* button */
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+}
